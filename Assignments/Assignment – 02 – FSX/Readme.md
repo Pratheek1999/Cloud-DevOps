@@ -1,9 +1,9 @@
-Problem Statement:
+# Problem Statement:
 
 You work for a corporation and the current requirement in the organization is for faster file sharing, which can also help in data replication from on-premises infrastructure.
 
 
-Tasks To Be Performed:
+## Tasks To Be Performed:
 
 1. Create an FSX file system for a Windows file server:
 
