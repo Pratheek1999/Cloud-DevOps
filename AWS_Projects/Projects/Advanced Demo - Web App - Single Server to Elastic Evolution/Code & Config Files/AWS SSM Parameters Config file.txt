@@ -1,0 +1,56 @@
+_____________________________________________________________________________________________________
+Create Parameter - DBUser (the login for the specific wordpress DB)
+--------------------------------------------------------------------
+Click Create Parameter Set Name to /A4L/Wordpress/DBUser Set Description to Wordpress Database User
+Set Tier to Standard
+Set Type to String
+Set Data type to text
+Set Value to a4lwordpressuser
+Click Create parameter
+_____________________________________________________________________________________________________
+
+_____________________________________________________________________________________________________
+Create Parameter - DBName (the name of the wordpress database)
+---------------------------------------------------------------
+Click Create Parameter Set Name to /A4L/Wordpress/DBName Set Description to Wordpress Database Name
+Set Tier to Standard
+Set Type to String
+Set Data type to text
+Set Value to a4lwordpressdb
+Click Create parameter
+_____________________________________________________________________________________________________
+
+_____________________________________________________________________________________________________
+Create Parameter - DBEndpoint (the endpoint for the wordpress DB .. )
+----------------------------------------------------------------------
+Click Create Parameter Set Name to /A4L/Wordpress/DBEndpoint Set Description to Wordpress Endpoint Name
+Set Tier to Standard
+Set Type to String
+Set Data type to text
+Set Value to localhost
+Click Create parameter
+_____________________________________________________________________________________________________
+
+_____________________________________________________________________________________________________
+Create Parameter - DBPassword (the password for the DBUser)
+------------------------------------------------------------
+Click Create Parameter Set Name to /A4L/Wordpress/DBPassword Set Description to Wordpress DB Password
+Set Tier to Standard
+Set Type to SecureString
+Set KMS Key Source to My Current Account
+Leave KMS Key ID as default (should be alias/aws/ssm).
+Set Value to 4n1m4l54L1f3
+Click Create parameter
+_____________________________________________________________________________________________________
+
+_____________________________________________________________________________________________________
+Create Parameter - DBRootPassword (the password for the database root user, used for self-managed admin)
+---------------------------------------------------------------------------------------------------------
+Click Create Parameter Set Name to /A4L/Wordpress/DBRootPassword Set Description to Wordpress DBRoot Password
+Set Tier to Standard
+Set Type to SecureString
+Set KMS Key Source to My Current Account
+Leave KMS Key ID as default (should be alias/aws/ssm).
+Set Value to 4n1m4l54L1f3
+Click Create parameter
+_____________________________________________________________________________________________________
