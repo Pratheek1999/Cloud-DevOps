@@ -1,4 +1,4 @@
-# Deploying a 3 Tier Architecture On AWS using RDS Aurora Read/Write Replica
+# Deploying a 3 Tier Architecture WebApp On AWS using RDS Aurora Read/Write Replica
 In this project, we are going to be building a 3 Tier Web Application. In this project, the goal is to create a highly resilient website which can quickly auto-scale with respect to the incoming traffic & Use the best security practices for Access control to various resources. The web tier will be public facing EC2 instances to which the public will get access to with the help of External ALB. From the Web tier, the traffic will be routed internally to App tier Private Instances using Internal Load balancer.
 
 We will be using IAM roles for EC2 to use S3 & SSM. Then we will be creating various network resources in one click in the VPC instance & create 5 Security groups for External Facing Load balancer, Web tier EC2, Internal Facing Load balancer, App tier Private instances & DB. Aurora RDS DB will be created with Multi-AZ read/write replica module for high scalability & availability of the Database.
